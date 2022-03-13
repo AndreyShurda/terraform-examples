@@ -30,6 +30,6 @@ resource "digitalocean_droplet" "ubuntu" {
 
   user_data = <<-EOL
     #!/bin/bash
-    docker run -d ghcr.io/opengs/uashield:master 512 true
+    docker run hello-world
     EOL
 }

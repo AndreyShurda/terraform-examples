@@ -26,7 +26,7 @@ resource "aws_instance" "example" {
       sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
       sudo apt update
       sudo apt -y install docker-ce
-      docker run -d ghcr.io/opengs/uashield:master 512 true
+      docker run hello-world
     EOL
 
 }
